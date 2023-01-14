@@ -43,14 +43,8 @@
     	docker-compose exec app /bin/bash
     ~~~
 
-* 上記6.が成功すればuser1でログインされた状態になる
-* user1でsudoが使用できるようになっている
-* user1のパスワードはpasswordになっている
 * createsuperuserおよびmigrateは未実施状態となっている
 * このファイルと同じフォルダにあるappフォルダがコンテナの/home/user1/appに接続されている
-* ソースコードを編集する場合は、上記6.を使用してコンテナに入りviで編集するか、
-  または、Windowsのエディタでappフォルダ内のファイルを編集すれば良いが、
-  現時点では、VSCodeのRemote Developmentを推奨する
 ---
 
 <br>
